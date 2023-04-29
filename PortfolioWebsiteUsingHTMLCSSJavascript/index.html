@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website Using HTML CSS Javascript</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, everyone! This is</h3>
+            <h1>Anirban Chakraborty</h1>
+            <h3>I am a dedicated <span class="multiple-text"></span></h3>
+            <p>Recently, I am a third year undergraduate student in MCKV Institute of Engineering persuing my B.Tech course in IT. I have involved myself to learn new skills and enhancing knowledge from different sources.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="image/image2.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/image1.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I am a hard-working Engineering student specialized in Information Technology and persuing B.Tech Degree course from MCKVIE. 
+
+                I am a certified Graphic Designer and I have done an internship in this field from Aashman Foundation and I am still working in this field from 8 months and grabbed a pretty good knowledge in this field and still working in this field and I also involved myself in video editing and photography. I am also familiar with Human Resource Management process and related functions.
+                
+                As a IT Engineer, I have a good knowledge on Java, Python and also familiar with C. I have pretty good knowledge on HTML, CSS and have a basic knowledge on JavaScript and Mongodb and recently I am working as a front-end developer and enhancing my skills in this field. 
+                </p>
+
+            <a class="btn">Read more</a>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel voluptatum eaque, repudiandae libero minus commodi tenetur praesentium quos temporibus?</p>
+
+                <a href="#" class="btn">Read More</a>
+
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-java'></i>
+                <h3>Programming in Java</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel voluptatum eaque, repudiandae libero minus commodi tenetur praesentium quos temporibus?</p>
+
+                <a href="#" class="btn">Read More</a>
+                
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vel voluptatum eaque, repudiandae libero minus commodi tenetur praesentium quos temporibus?</p>
+
+                <a href="#" class="btn">Read More</a>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/portfolio1.png" alt="">
+                <div class="portfolio-layer">                    
+                    <h4>Clone Website</h4>
+                    <p>This is a clone site of Flipkart using HTML, CSS, JavaScript.</p>
+                    <a href="#"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Temperature Converter</h4>
+                    <p>It can be used for converting the temperature in Celsius into fahrenheit and vice-versa.</p>
+                    <a href="#"><i class='bx bx-link'></i></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator Design</h4>
+                    <p>This a Calculator webpage using HTML, CSS, JavaScript. This is completely a basic calculator
+                    </p>
+                    <a href="#"><i class='bx bx-link'></i></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Mobile No.">
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email id">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Put your message here..."></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Anirban Chakraborty || All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
